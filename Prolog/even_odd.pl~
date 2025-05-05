@@ -1,0 +1,10 @@
+even(Number):-
+    Number mod 2 =:= 0.
+
+odd(Number):-
+    Number mod 2 =:= 1.
+
+even(2).
+odd(5).
+
+
